@@ -1,0 +1,20 @@
+{
+  "name": "pkg-a",
+  "version": "1.0.0",
+  "description": "A test repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Everything-Burrito/demo-packages-pkg-a.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Everything-Burrito/demo-packages-pkg-a/issues"
+  },
+  "homepage": "https://github.com/Everything-Burrito/demo-packages-pkg-a#readme"
+}

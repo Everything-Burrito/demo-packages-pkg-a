@@ -1,0 +1,25 @@
+# EditorConfig helps maintain consistent coding styles across various editors and IDEs
+# More information: https://EditorConfig.org
+
+# Indicates this is the root EditorConfig file, and no further searching will be done
+root = true
+
+# Default settings:
+# - UTF-8 charset for all files
+# - LF (Unix-style) line endings
+# - Ensure a newline at the end of the file
+# - Remove trailing whitespace from all lines
+[*]
+charset = utf-8
+indent_size = 2
+end_of_line = lf
+indent_style = space
+max_line_length = 120
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown specific settings:
+# - Use tab indentation (size is determined by the editor/viewer's preference)
+[*.md]
+indent_style = tab
+
