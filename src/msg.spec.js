@@ -5,4 +5,4 @@ describe("greet", () => {
   it("should return a greeting", () => {
     expect(msg.greet()).to.equal("Hello there.");
   });
-})
+});
