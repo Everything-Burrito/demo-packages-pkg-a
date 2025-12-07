@@ -11,4 +11,7 @@ jobs:
         with:
           node-version-file: ".nvmrc"
           cache: "npm"
-      - run: npm ci
+      - name: Run Install
+        run: npm ci
+      - name: Run tests
+        run: npm test
