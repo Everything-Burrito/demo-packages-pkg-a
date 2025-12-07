@@ -1,7 +1,6 @@
 name: Test Project
 on:
   push:
-
 permissions:
   contents: read
 jobs:
