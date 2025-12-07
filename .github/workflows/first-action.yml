@@ -1,7 +1,6 @@
 name: Test Project
 on:
   push:
-  pull_request:
 
 jobs:
   test:
