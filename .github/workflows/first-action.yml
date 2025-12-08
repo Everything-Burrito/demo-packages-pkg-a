@@ -21,6 +21,7 @@ jobs:
         run: npm run test:ci
   publish:
     name: Publish Pre-tag
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Greeting
