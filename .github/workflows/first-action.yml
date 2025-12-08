@@ -19,3 +19,9 @@ jobs:
         run: npm ci
       - name: Run tests
         run: npm run test:ci
+  publish:
+    name: Publish Pre-tag
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting
+        run: echo "Hello"
